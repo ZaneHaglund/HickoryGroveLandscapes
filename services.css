@@ -1,0 +1,21 @@
+#introStatement{
+    font-size:30px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.listofallservices{
+    display:block;
+    justify-content: space-between;
+    list-style: none;
+    padding:10px;
+    margin-left:5%;
+    margin-right:5%;
+}
+.service{
+    padding:10px;
+}
+.title{
+    margin-bottom:10px;
+    text-decoration: underline;
+    color:green;
+}

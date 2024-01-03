@@ -1,0 +1,46 @@
+.aboutInformation{
+    margin-top:20px;
+}
+#aboutTextHeader{
+    color:green;
+    margin-bottom:20px;
+}
+#servicesSupported{
+    margin-top:20px;
+    margin-bottom:20px;
+    line-height: 1.4em;
+}
+#servicesSupportedHeader{
+    margin-bottom:10px;
+}
+
+@media only screen and 
+(max-device-width:1450px){
+    #aboutimage{
+        width:100%;
+    }
+    .abouttext{
+        text-align: center;
+        margin-left:5%;
+        margin-right:5%;
+        line-height: 1.4em;
+    }
+}
+@media only screen and 
+(min-device-width:1450px){
+    .aboutInformation{
+        column-count: 2;
+    }
+    #aboutimage{
+        width:100%;
+    }
+    .aboutTextArea{
+        margin-top:10%;
+        margin-bottom:10%;
+    }
+    .abouttext{
+        margin-left:5%;
+        margin-right:5%;
+        line-height: 1.4em;
+    }
+}

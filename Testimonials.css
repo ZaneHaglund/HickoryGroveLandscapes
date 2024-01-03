@@ -1,0 +1,29 @@
+*{
+    text-align: center;
+}
+.testimonialArea{
+    margin-left:5%;
+    margin-right:5%;
+}
+.testimonial{
+    display:block;
+    padding:10px;
+    background-color: white;
+    border-style:solid;
+    border-width:10px;
+    border-color:green;
+    margin-top:20px;
+    margin-bottom:20px;
+    border-radius: 20px;
+}
+.clientName{
+    margin-top:15px;
+}
+.imageArea{
+    background-color: black;
+    padding:20px;
+    border-radius: 50%;
+}
+.clientImage{
+    width:50%;
+}

@@ -1,0 +1,71 @@
+#areasSServiced{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+@media only screen and 
+(max-device-width:800px){
+    *{
+        text-align: center;
+    }
+    .serviceOfferedText{
+        font-size: 1.5em;
+    }
+    .listofallservices>li, #fullListofServices, #areasServiced{
+        text-align: center;
+        list-style: none;
+        font-size: 24px;
+        padding:10px;
+        margin-left:5%;
+        margin-right:5%;
+    }
+}
+@media only screen and 
+(min-device-width:800px){
+    .serviceOfferedText{
+        font-size: 3em;
+    }
+    .listofallservices>li, #fullListofServices, #areasServiced{
+        text-align: center;
+        list-style: none;
+        font-size: 48px;
+        padding:10px;
+        margin-left:5%;
+        margin-right:5%;
+    }
+}
+
+.serviceOfferedItem{
+    height: 30em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px;
+    width:80%;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: relative;
+    border-radius: 10px;
+}
+.serviceOfferedText{
+    text-align:center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+}
+#mowing{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Assets/Mow1.jpg");
+}
+#snowremoval{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Assets/SnowRemoval2.PNG");
+}
+#patios{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Assets/Patio1.jpeg");
+}
+#retainingWalls{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Assets/RetainingWall12.jpeg");
+}
+#erosioncontrol{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Assets/Erosion2.jpeg");
+}
